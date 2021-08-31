@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mddstudio.test69">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test69">
+        <activity
+            android:name=".noti.back"
+            />
+        <activity android:name=".noti.Show" />
+        <activity android:name=".Work_Notification.Work_Manager" />
+        <activity android:name=".Work_Notification.WorkManger" />
+        <activity android:name=".Work_Notification.Notifiaction" />
+        <activity android:name=".Retrofit.Retrof" />
+        <activity android:name=".room.roomDb" />
+        <activity android:name=".Coroutine.MainActivity" />
+        <activity android:name=".Coroutine.VIewCo" />
+        <activity android:name=".Coroutine.async" />
+        <activity android:name=".Coroutine.courutine" />
+        <activity android:name=".Fm_Recy.recyView" />
+        <activity android:name=".Fm_Recy.fmAt" />
+        <activity android:name=".livedata.Twoway" />
+        <activity android:name=".livedata.ViewModel3" />
+        <activity android:name=".livedata.ViewModel2" />
+        <activity android:name=".livedata.ViewModel" />
+        <activity android:name=".data_Bind.DataBinding3" />
+        <activity android:name=".data_Bind.DataBinding2" />
+        <activity android:name=".data_Bind.DataBinding" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

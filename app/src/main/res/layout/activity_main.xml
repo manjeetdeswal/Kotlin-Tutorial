@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/liner1"
+           android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/button1"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DB1"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DB2"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DB3"
+                 />
+            <Button
+                android:id="@+id/button4"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vie1"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_below="@+id/liner1"
+            android:orientation="horizontal"
+            android:id="@+id/liner2"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/button5"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ViewM2"
+                />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ViewM3"
+                />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FM"
+                />
+            <Button
+                android:id="@+id/button8"
+                android:layout_weight="25"
+               android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecView"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_below="@+id/liner2"
+            android:id="@+id/linear3"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/button9"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cor"
+                />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Async"
+                />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COVI"
+                />
+            <Button
+                android:id="@+id/button12"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_below="@+id/linear3"
+            android:id="@+id/linear4"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/button13"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retro"
+                />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifi"
+                />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WorkMG"
+                />
+            <Button
+                android:id="@+id/button16"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="notidff"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_below="@+id/linear4"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/button17"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retro"
+                />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifi"
+                />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WorkManger"
+                />
+            <Button
+                android:id="@+id/button20"
+                android:layout_weight="25"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecView"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </RelativeLayout>
+
+</layout>
